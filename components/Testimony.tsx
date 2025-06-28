@@ -22,7 +22,7 @@ const Testimony = ({
   return (
     <div className='flex flex-col gap-2'>
         <h1 className='font-normal text-[23px] leading-snug'>
-            "{text}"
+            &quot;{text}&quot;
         </h1>
         <p className={`text-[#8e8e8e] text-[15px] ${titleFont.className}`}>
             {name}, {role}, {company}
